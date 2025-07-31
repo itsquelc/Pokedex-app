@@ -1,0 +1,24 @@
+git config --global user.name itsquelc
+git config --global user.email raquelnunescirino@gmail.com
+
+Como criar projeto:
+npx create-expo-app@latest pokedex
+cd StickerSmash
+
+baixar projeto do GitHub
+npm i 
+
+resetar o template ao básico
+npm run reset-project
+
+executar o projeto na web
+npx expo start --web
+
+executar no android
+npx expo start --localhost -- android
+
+npx expo install expo-image
+
+npm install dom-to-image
+
+pag 52
