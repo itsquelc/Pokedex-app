@@ -1,10 +1,9 @@
-import { StyleShee, Text, view } from "react-native";
-import { Colors } from "react-native/Libraries/NewAppScreen";
+import { StyleSheet, Text, view } from "react-native";
 
 export default function TextInfo({ label, text }) {
     return (
         <Text style={styles.text}>
-            <Text style={style.bold}>{label}</Text> {text}
+            <Text style={styles.bold}>{label}</Text> {text}
         </Text>
     );
 }
